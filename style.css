@@ -12,20 +12,43 @@ body {
 
 article {
     background-image: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    border-radius: .75em;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 3px 5px yellow, 3px 5px 3px purple;
+    box-shadow: 5px 3px 5px yellow, 3px 5px 3px purple;
 }
 
 header {
     background-image: url(https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80);
     background-size: cover;
     color: rgb(116, 240, 240);
+    border-radius: .75em;
+    padding: 5px 50px;
+    box-shadow: 5px 3px 5px yellow, 3px 5px 3px purple;
+    text-shadow: 5px 3px 5px yellow, 3px 5px 3px purple;
+
 }
 /* used anchor element to link another website to mine */
 a {
     text-decoration: none;
     color: white;
+    padding: 5px;
 }
 /* used a pseudo-class to change the text-deco and color when the mouse hovers over the link */
 a:hover {
     color: lightsalmon;
     text-decoration: underline wavy lightsalmon;
+}
+
+img {
+    display: block;
+    height: 20%;
+    border: 5px solid lightsalmon;
+    border-radius: .75em;
+    margin-bottom: 20px
+}
+
+.subheading {
+    border-bottom: 3px solid blueviolet;
 }
